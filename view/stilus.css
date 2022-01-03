@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(211, 224, 88);
+    color:rgb(255, 102, 0);
+}
+
+
+#eddigikinaik{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-collapse: collapse;
+}
+
+#kinaitabla{
+    width: 460px
+}
+
+
+th{
+    background-color:cyan;
+    border-bottom: blue solid 5px;
+    border: blue solid 1px;
+}
+
+td{
+    border: blue solid 4px;
+}

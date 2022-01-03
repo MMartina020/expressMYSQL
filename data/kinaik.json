@@ -1,0 +1,17 @@
+[{"nev":"Máté",
+    "telefonszam":"0630765234",
+    "cim":"4400 Virág út 51",
+    "fajta":"csipős",
+    "meret":"közepes"},
+
+    {"nev":"Panna",
+        "telefonszam":"0670987675",
+        "cim":"4400 Kovács utca 4",
+        "fajta":"édes savanyú",
+        "meret":"kicsi"},
+
+    {"nev":"Martina",
+        "telefonszam":"0620654923",
+        "cim":"4400 Pipacs utca 20",
+        "fajta":"gombás chilis",
+        "meret":"közepes"}]

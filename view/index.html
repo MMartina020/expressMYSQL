@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/stilus.css"> 
+    <title>Kínai rendelés</title>
+</head>
+<body>
+    <h1>Kínai rendelés</h1>
+    <div id="kinaiformdoboz">
+    <form id="kinaiform">
+        <label>Add meg a neved: <input type="text" name="nev" ></label><br>
+        <label>Add meg a telefonszamod <input type="number" name="telefonszam" ></label><br>
+        <label>Add meg a címed <input type="text" name="cim" ></label><br><br>
+
+
+        <label>Kérem egy méretet válasszon</label><br>
+            <label>Alapból a méret a Kicsi: <input type="checkbox" id="meret" > (Ha benyomja a gombot akkor közepes méret lesz)</label><br><br>
+
+
+        <label>Milyen fajta kínait szeretne: <select name="fajta">
+            <option value="csípős">Csípős</option>
+            <option value="gombas chilis">Gombás chilis</option>
+            <option value="édes savanyú">Édes savanyú</option>
+        </select></label><br>
+
+
+        <button type="submit" class="btn btn-outline-danger">Új kínai felvétele</button>
+    </form>
+    <button id="eddigikinai" class="btn btn-primary">Az eddig felvett kínaik listája</button>  
+    </div>
+    <div id="Kinai"></div>
+    <script src="kinai.js"></script>
+</body>
+</html>
